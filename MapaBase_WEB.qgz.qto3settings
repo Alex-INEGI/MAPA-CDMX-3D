@@ -730,7 +730,45 @@
       "geomType": 0,
       "layerId": "fp:5b8bff55",
       "name": "Flat Plane",
-      "properties": {},
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "lineEdit_Altitude": "0",
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "944e91b4",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "944e91b4",
+        "spinBox_Size": 3
+      },
       "visible": false
     }
   ],
@@ -738,18 +776,18 @@
     "localMode": true,
     "viewpoint": {
       "lookAt": {
-        "x": 492137.74112690776,
-        "y": 2149941.1680192295,
+        "x": 484915.73707471864,
+        "y": 2138771.73318075,
         "z": 0.0
       },
       "pos": {
-        "x": 467146.71313291613,
-        "y": 2041026.2089992003,
-        "z": 23414.766882093336
+        "x": 484915.73707471864,
+        "y": 2100918.1357606193,
+        "z": 37853.59742013086
       }
     }
   },
-  "OutputFilename": "D:/REPORTES 2025/Presentaciones/Fundamentos de Cartografía y Procesamiento de Datos geoespaciales/Practica Subtema 6.2 Publicación de información geoespacial en la web/Diseno_MapaWeb\\index.html",
+  "OutputFilename": "C:/Users/alexander.gallegos/Documents/Practica Subtema 6.2 Publicación de información geoespacial en la web\\index.html",
   "SCENE": {
     "checkBox_FixAspectRatio": true,
     "checkBox_Outline": false,
@@ -779,5 +817,18 @@
   },
   "Template": "3DViewer.html",
   "Title": "MapaBase_WEB",
-  "Version": 20800
+  "Version": 20800,
+  "WIDGETS": {
+    "Label": {
+      "Footer": "",
+      "Header": ""
+    },
+    "Navi": {
+      "enabled": true
+    },
+    "NorthArrow": {
+      "color": "0xffffff",
+      "visible": true
+    }
+  }
 }
